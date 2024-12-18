@@ -1,0 +1,86 @@
+.plan__container {
+  height: 160px;
+  border: 1px solid var(--jp-forth-border-color);
+  background: var(--jp-background-third-color);
+  .plan__container__header {
+    width: 56px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    background: #e78a1c;
+    font-family: PingFang SC;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .plan__container__statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .adm-space {
+      flex: 1 1 auto;
+      .plan__container__statistic__value {
+        font-family: PingFang SC;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        &.plan__container__statistic__value--active {
+          color: var(--jp-third-color);
+        }
+      }
+      .plan__container__statistic__label {
+        white-space: nowrap;
+        font-family: PingFang SC;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--jp-second-color);
+      }
+    }
+    .adm-divider {
+      margin: 0;
+      height: 32px;
+      border-color: var(--jp-border-third-color);
+    }
+  }
+  .plan__container__operate {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .jp-stepper {
+      --border-radius: 0;
+      width: auto;
+      .adm-button {
+        width: 26px;
+        height: 26px;
+        border: 1px solid var(--jp-stepper-border-color);
+        border-radius: unset;
+        background-color: transparent;
+        color: var(--jp-stepper-color) !important;
+        &.adm-button-disabled {
+          opacity: 1;
+        }
+      }
+      .adm-stepper-middle {
+        margin: 0 4px;
+        height: 24px;
+        .adm-stepper-input {
+          background-color: var(--jp-stepper-input-background-color);
+          border: 1px solid var(--jp-stepper-input-border-color);
+          .adm-input-element {
+            width: 64px;
+            color: var(--jp-primary-color);
+          }
+        }
+      }
+    }
+  }
+}

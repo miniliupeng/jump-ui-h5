@@ -1,0 +1,5 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" rx="24" fill="var(--adm-color-primary)"/>
+<path d="M24 28L24 12" stroke="var(--jp-button-color)" stroke-width="3"/>
+<circle cx="24" cy="34" r="2" fill="var(--jp-button-color)"/>
+</svg>

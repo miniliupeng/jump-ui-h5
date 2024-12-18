@@ -1,0 +1,55 @@
+.project__container {
+  height: 98px;
+  border: 1px solid var(--jp-forth-border-color);
+  background: var(--jp-background-third-color);
+  margin-bottom: 16px;
+  .project__container__header {
+    width: 56px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    background: #e78a1c;
+    font-family: PingFang SC;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .project__container__statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .adm-space {
+      flex: 1 1 auto;
+      .project__container__statistic__value {
+        font-family: PingFang SC;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        &.project__container__statistic__value--active {
+          color: var(--jp-third-color);
+        }
+      }
+      .project__container__statistic__label {
+        white-space: nowrap;
+        font-family: PingFang SC;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--jp-second-color);
+      }
+    }
+    .adm-divider {
+      margin: 0;
+      height: 32px;
+      border-color: var(--jp-border-third-color);
+    }
+  }
+
+}

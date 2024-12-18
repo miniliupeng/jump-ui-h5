@@ -1,0 +1,131 @@
+.lp-input.adm-input {
+  --font-size: 14px;
+  --placeholder-color: var(--jp-placeholder-color);
+  border: 0.5px solid var(--jp-border-color);
+  background-color: var(--jp-background-second-color);
+  height: 40px;
+  padding: 0 4px 0 8px;
+  input.adm-input-element {
+    color: var(--jp-primary-color);
+  }
+  .adm-input-clear {
+    color: var(--jp-form-icon-color);
+  }
+  &.adm-input-disabled {
+    opacity: 1;
+    border: 0.5px solid var(--jp-border-forth-color);
+    background-color: var(--jp-disabled-background-color);
+    input.adm-input-element {
+
+    }
+  }
+}
+
+.lp-form.adm-form {
+  .adm-list.adm-list {
+    --font-size: 14px;
+    --padding-left: 0;
+    --padding-right: 0;
+    &.adm-list-default .adm-list-body {
+      border: none;
+      overflow: visible;
+      .adm-list-item.has-extra {
+        position: relative;
+        .adm-list-item-content-main {
+          .adm-input.lp-input {
+            padding-right: 28px;
+          }
+        }
+        .adm-list-item-content-extra {
+          padding-left: 0;
+          color: var(--jp-placeholder-color);
+        }
+      }
+      .adm-list-item-content {
+        position: relative;
+        border: none;
+        width: 100%;
+
+        .adm-list-item-content-main {
+          padding-top: 0px;
+          padding-bottom: 20px;
+          .adm-form-item-label {
+            font-family: PingFang SC;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            color: var(--jp-label-color);
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+  .adm-form-footer {
+    padding: 16px 0;
+  }
+  .eye {
+    position: absolute;
+    right: 4px;
+    top: 32px;
+    padding: 4px;
+    cursor: pointer;
+    svg {
+      display: block;
+      font-size: var(--adm-font-size-7);
+    }
+  }
+}
+.required-form-item {
+  .adm-form-item-label {
+    margin-left: 8px;
+  }
+}
+
+.adm-button:not(.adm-button-default) {
+  --text-color: var(--jp-button-color);
+  font-size: 14px;
+}
+.adm-button {
+  border-radius: unset;
+}
+.adm-button-default {
+  --border-color: var(--jp-border-second-color);
+  --background-color: var(--jp-button-default-background-color);
+  color: var(--jp-button-default-color);
+}
+
+.adm-list-body {
+  background-color: transparent;
+}
+.adm-list-item {
+  background-color: transparent;
+}
+.jp-checkbox-item {
+  .adm-form-item-child-inner {
+    display: flex;
+    align-items: center;
+  }
+}
+.jp-checkbox {
+  .adm-checkbox-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: unset;
+    border-color: var(--jp-checkbox-border-color);
+  }
+  &.adm-checkbox-checked {
+    .adm-checkbox-icon {
+      border-color: var(--jp-checkbox-border-color);
+      background-color: var(--jp-checkbox-select-background-color);
+      color: var(--jp-checkbox-icon-color);
+    }
+  }
+}
+.adm-checkbox-content {
+  line-height: var(--font-size);
+}
+
+.adm-toast-mask .adm-toast-main {
+  max-width: 250px !important;
+}

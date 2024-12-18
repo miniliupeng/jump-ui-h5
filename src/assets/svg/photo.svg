@@ -1,0 +1,16 @@
+
+
+
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_811_6260)">
+<rect width="38" height="38" rx="19" fill="var(--adm-color-primary)"/>
+<circle cx="18.9998" cy="14.9286" r="8.14286" fill="var(--jp-icon-second-color)"/>
+<ellipse cx="18.9999" cy="38.6786" rx="14.9286" ry="12.8929" fill="var(--jp-icon-second-color)"/>
+</g>
+<rect x="1" y="1" width="36" height="36" rx="18" stroke="var(--adm-color-primary)" stroke-width="2"/>
+<defs>
+<clipPath id="clip0_811_6260">
+<rect width="38" height="38" rx="19" fill="white"/>
+</clipPath>
+</defs>
+</svg>
